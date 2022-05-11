@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.NavBar {
+  margin-top: 2%;
+  display: flex;
+  padding: 1% 2% 1% 2%;
+  gap: 20px;
+}
+
+#name {
+  font-weight: 600;
+  font-size:xx-large;
+}
+
+
+.headshot { 
+  border-radius: 1px;
+  max-width: 25%;
+}
+
+.navBarText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.titles {
+  margin-top: 2%;
+}
+
+.hospitalLogo {
+  width: 25%;
+  margin-top: 2%;
+}
+
+.phoneNumber {
+  background-color: #124a7e;
+  color: white;
+  padding: 1%;
+  font-size: large;
+}
+
+.MainContainer {
+  background-color: white;
+  height: 95vh;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1% 2% 1% 2%;
+}
+
+.title {
+  font-weight: 600;
+  font-size: larger;
+  background-color: #ececec;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1% 0% 0% 0%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0% 0% 0% 1%;
+  
+}
+
+#clinicalInterestColumns {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.credentialSection {
+  margin-bottom: 1%;
+}
+
+.credentialTitle {
+  font-weight: bold;
+}
